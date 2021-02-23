@@ -1,0 +1,30 @@
+.boxs {
+  position: relative;
+  box-sizing: border-box;
+  width: 250px;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  background: #060c21;
+  margin: 40px;
+  transition: 1.2s;
+}
+.boxs:hover {
+  transform: scale(1.1);
+}
+
+.boxs .glass {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 100%;
+  display: block;
+  background: rgba(255, 255, 255, 0.1);
+  pointer-events: none;
+}
+
+.boxs .contents {
+  padding: 20px;
+  color: #fff;
+}

@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap");
+
+nav {
+  font-family: "Quicksand";
+  box-shadow: -10px 0px 20px 0px #020208;
+}
+nav .navlink {
+  font-size: 28px !important;
+}
+a.tombol {
+  box-shadow: 0, 0, 5px #03e9f4;
+}
+a.tombol:hover {
+  color: #050801;
+  background: #03e9f4;
+  box-shadow: 0 0 5px #03e9f4, 0 0 25px #03e9f4, 0 0 50px #03e9f4,
+    0 0 200px #03e9f4;
+}
+.nav-item a:hover {
+  color: #050801;
+  border-radius: 5px;
+  background: #03e9f4;
+  box-shadow: 0 0 5px #03e9f4, 0 0 25px #03e9f4, 0 0 50px #03e9f4;
+}
+li .active {
+  color: #03e9f4;
+}

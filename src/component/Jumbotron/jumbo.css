@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap");
+
+.jumbotron {
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(5, 5, 20);
+}
+
+.jumbotron h1 {
+  font-family: "Roboto";
+  position: relative;
+  color: #0e1342;
+  font-size: 6em;
+  text-transform: uppercase;
+  -webkit-box-reflect: below 1px linear-gradient(transparent, #0004);
+  line-height: 0.7em;
+  outline: none;
+  animation: animate 5s linear infinite;
+}
+@keyframes animate {
+  0%,
+  18%,
+  20%,
+  50.1%,
+  60%,
+  65.1%,
+  80%,
+  90%,
+  92% {
+    color: #0e1342;
+    text-shadow: none;
+  }
+  18%,
+  20.1%,
+  30%,
+  50.1%,
+  60.1%,
+  65%,
+  80.1%,
+  90%,
+  92.1%,
+  100% {
+    color: #fff;
+    text-shadow: 0 0 10px #03bcf4, 0 0 20px #03bcf4, 0 0 40px #03bcf4,
+      0 0 80px #03bcf4, 0 0 160px #03bcf4;
+  }
+}
+
+a.tombol {
+  position: relative;
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 40px 0;
+  border-radius: 5px;
+  border: solid 1px #03e9f4;
+  color: #03e9f4;
+  font-size: 18px;
+  transition: 0.5s;
+  letter-spacing: 2px;
+  text-decoration: none;
+  text-transform: uppercase;
+  box-shadow: 0, 0, 5px #03e9f4;
+  box-sizing: border-box;
+}
+a.tombol:hover {
+  color: #050801;
+  background: #03e9f4;
+  box-shadow: 0 0 5px #03e9f4, 0 0 25px #03e9f4, 0 0 50px #03e9f4,
+    0 0 200px #03e9f4;
+}
+
+@media screen and (max-width: 600px) {
+  .jumbotron h1 {
+    font-size: 2em;
+  }
+}
